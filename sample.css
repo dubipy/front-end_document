@@ -1,0 +1,11 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    animation: hello 2s linear infinite both;
+}
+
+@keyframes hello {
+    0% { width: 200px; }
+    100% { width: 50px }
+}
